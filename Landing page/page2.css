@@ -1,0 +1,141 @@
+body{
+    background-color: #F7F8FC;
+    width: 1920px;
+    height:724px;
+    
+}
+
+section{
+  width: 1170px;
+  height:484px;
+  margin-top: 5%;
+  margin-left: 250px;
+}
+
+header {
+    display: flex; 
+    margin-left: 50px;
+    text-align: center;
+  }
+  
+ 
+.message-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: center; 
+    margin: 0 auto; 
+    font-size: larger;
+  }
+   
+  .Message h1 span{
+    color: #FD8D3A;
+}
+  
+  
+  .Message2{
+    color:#666666;
+    opacity: 100%;
+}
+  
+  
+  .Flight {
+    width: 200px;
+    height: 150px;
+  }
+  
+  .Flight-Image {
+    width: 100%;
+    height: auto;
+  }
+  
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 10%; 
+}
+
+.left-Content,
+.Center-Content,
+.Right-Content {
+    background-color:white;
+    height: 278px;
+    width: 370px;
+    font-size: large;
+    text-align: center;
+    margin: 0,10px; 
+}
+
+.Left-Image,
+.Center-Image,
+.right-Image {
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%; 
+        height: auto; 
+        padding: 10px; 
+        background-color: whitesmoke; 
+    }
+
+    section {
+        width: 90%; 
+        margin: 5% auto; 
+        padding: 10px; 
+    }
+
+    header {
+        flex-direction: column; 
+        align-items: center; 
+        margin-left: 0; 
+        width: 100%; 
+    }
+
+    .message-container {
+        align-items: center; 
+        text-align: center; 
+        margin: 15px 0; 
+    }
+
+    .Message h1 span {
+        font-size: 1.8em; 
+    }
+
+    .Message2 {
+        font-size: 1em; 
+    }
+
+    .Flight {
+        width: 150px; 
+        height: auto; 
+        margin: 10px auto; 
+    }
+
+    footer {
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: 20px; 
+    }
+
+    .left-Content,
+    .Center-Content,
+    .Right-Content {
+        width: 100%; 
+        margin: 10px 0; 
+        font-size: large; 
+        padding: 15px; 
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .Left-Image,
+    .Center-Image,
+    .right-Image {
+        margin-top: 20px; 
+        margin-bottom: 10px;
+    }
+}

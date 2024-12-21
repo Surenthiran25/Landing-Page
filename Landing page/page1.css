@@ -1,0 +1,289 @@
+body{
+    width: 1920px;
+    height: 999px;
+}
+.navbar{
+  position: fixed;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: #FEFCFB;
+    padding: 1rem 2rem;
+    width: 1170px;
+    height: 50px;
+   
+}
+
+.logo {
+    display: flex; 
+    align-items: center;
+    gap: 0.5rem; 
+    width: 130px;
+    height: 24px;
+     font-weight: bold;
+     font-size: xx-large;
+     color:black
+
+  }
+
+  .logo img {
+    width: 40px;
+    height: 40px;
+    background-color: #FEFCFB;
+  }
+
+  .center-content{
+    display: flex;
+    gap:1rem;
+    width:386px;
+    height:24px;
+     
+  }
+
+  .center-content  a button{
+    padding: 10px;
+                  color:black;
+                  border:none;
+                  background-color:#FEFCFB;
+                  cursor: pointer;
+                  border-radius: 5px;
+                  font-size: large;
+                  display: inline-block;
+  }
+  .center-content a button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .login-buttons button{
+                margin-right: 10px;
+                  background-color:#FEFCFB;
+                  cursor: pointer;
+                  border-radius: 5px;
+                  border:none;
+                  margin-top: 10px;
+                  color:#FD8D3A;
+                  padding:10px;
+                  font-size: large;
+  }
+  .login-buttons .Signup{
+       background-color: #FD8D3A;
+       color:#FEFCFB;
+       align-items: center;
+       justify-content: center;
+       padding:10px;
+  }
+  .login-buttons button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  footer{
+    margin-top: 650px;
+    height:124px;
+    width:841px;
+    border:3px solid white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    position: fixed;
+  }
+
+ .bottom{
+  justify-content: center;
+  align-items: center; 
+  padding:10px;
+}
+
+    .Footer-button {
+      padding:20px;
+      justify-content: space-between; 
+      gap:3rem;
+      width:793px;
+      height:60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    .Footer-button button{
+      background-color:#FEFCFB;
+                  cursor: pointer;
+                  border-radius: 5px;
+                  border:none;
+                  color:black;
+                  font-size: large;
+                  margin-top: 10px;
+                  padding:10px;
+  }
+    
+    .Footer-button button:last-child {
+      background-color:#FD8D3A;
+                  cursor: pointer;
+                  border-radius: 5px;
+                  border:none;
+                  margin-top: 10px;
+                  color:#FEFCFB;
+                  padding:10px;
+                  font-size: large;
+    }
+
+    .Footer-button button:hover{
+      background-color: #555;
+    color: white;
+    }
+
+
+ 
+.main-content {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  gap: 2rem;
+  width: 100%;
+  margin: 100px auto 0;
+  max-width: 1000px;
+}
+
+
+.left-content {
+  width: 50%;
+}
+
+.left-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color:#666666;;
+  margin-bottom: 1rem;
+}
+
+.left-content h1 span {
+  color: #FD8D3A;
+}
+
+.left-content p {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.discover-btn {
+  background-color: #FD8D3A;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.discover-btn:hover {
+  background-color: #555;
+}
+
+
+.right-content {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-image {
+  width: 80%;
+  border-radius: 10px;
+}
+
+
+.badge {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.badge-top {
+  top: 10%;
+  right:10%;
+}
+
+.badge-middle {
+  bottom: 30%;
+  left: 0;
+}
+
+.badge-bottom {
+  width: 174px;
+  height: 50px;
+  bottom: 20%;
+  right: 5%;
+  color: #FD8D3A;
+  text-align: center; 
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  gap: 0.5rem;
+}
+
+.Google-mapimage {
+  width: 32px;
+  height: 32px;
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .left-content, .right-content {
+    width: 100%; 
+  }
+
+  .left-content h1 {
+    font-size: 2rem;
+  }
+
+  .left-content p {
+    font-size: 1rem; 
+  }
+
+  .discover-btn {
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem; 
+  }
+
+  .right-content {
+    margin-top: 1.5rem;
+  }
+
+  .badge {
+    position: static; 
+    margin: 0.5rem auto; 
+    width: 80%; 
+  }
+
+  .main-image {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+}
+
+  
