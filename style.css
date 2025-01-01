@@ -429,13 +429,13 @@
     width: 100%;
     height: auto;
     background-color: #F7F8FC;
-    padding-top: 1%; /* Add padding to offset header */
+    padding-top: 1%; 
 }
 
 #destination > section {
     width: 100%;
     max-width: 1170px;
-    margin: 0 auto; /* Center the section */
+    margin: 0 auto; 
 }
 
 #destination > header {
@@ -444,7 +444,7 @@
     text-align: center;
     padding: 15px;
     margin: 0 auto;
-    position: relative; /* Changed from fixed to relative */
+    position: relative; 
 }
 
 #destination .message h1 {
@@ -467,7 +467,7 @@
 #destination > main {
     display: flex;
     justify-content: space-between;
-    margin-top: 20%; /* Adjusted margin-top */
+    margin-top: 20%;
     gap: 1rem;
     width: 100%;
     max-width: 1170px;
@@ -501,7 +501,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin-top: 20px; /* Increased margin-top for spacing */
+    margin-top: 20px; 
     margin: 0 auto;
     width: 100%;
     max-width: 1170px;
@@ -650,10 +650,10 @@
 
 #tour .image,
 #tour .image1 {
-    width: 100%;  /* Make sure the container takes full width */
-    max-width: 369px;  /* Set a max-width to avoid stretching */
-    height: 327px; /* Height for consistent sizing */
-    object-fit: contain;  /* Ensure the image fits inside the container without stretching */
+    width: 100%;  
+    max-width: 369px;  
+    height: 327px;
+    object-fit: contain;  
 }
 
 #tour .img,
@@ -678,7 +678,7 @@
     margin-top: 5%;
 }
 
-/* Adjust for smaller screens (mobile) */
+
 @media screen and (max-width: 768px) {
     #tour > main {
         flex-direction: column;
@@ -690,7 +690,7 @@
     #tour .left-Content,
     #tour .Center-content,
     #tour .Right-Content {
-        width: 90%; /* Ensure full width on small screens */
+        width: 90%; 
         height: auto;
         margin: 0 auto;
         padding: 1rem;
@@ -701,7 +701,7 @@
     #tour .img1,
     #tour .img2 {
         width: 100%;
-        height: auto; /* Allow height to adjust for smaller screens */
+        height: auto; 
     }
 
     header {
@@ -976,7 +976,7 @@
 #subscribe {
   width: 100%;
   height: auto;
-  background-color: #f9f9f9; /* Optional background color */
+  background-color: #f9f9f9; 
 }
 
 #subscribe .subscribe-container {
@@ -1004,7 +1004,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  flex-wrap: wrap; /* Makes it responsive */
+  flex-wrap: wrap; 
   gap: 20px;
 }
 
